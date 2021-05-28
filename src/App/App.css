@@ -1,0 +1,17 @@
+html,body{
+  overflow-x: hidden;
+}
+
+/* common color */
+.common__color {
+  color: #0047AB;
+}
+
+.common__bg__color {
+  background-color: #0047AB;
+}
+
+.logo{
+  width: 24px;
+  height: 24px;
+}

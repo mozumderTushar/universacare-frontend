@@ -1,0 +1,23 @@
+.notification__bar{
+  padding-top: 33px;
+  padding-bottom: 31px;
+}
+
+.notification__bar__logo{
+  margin-left: 63px;
+}
+
+.phone{
+  margin-right: 33px;
+}
+
+.nav-link{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2B2D42;
+}
+
+a.nav-link.active{
+  color: #0047AB;
+}

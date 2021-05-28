@@ -1,0 +1,14 @@
+.precautions{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.5px;
+  padding-top: 20px;
+  padding-bottom: 23px;
+  box-shadow: 0px 4px 4px #EBEBEB;
+}
+
+.information_icon{
+  width: 24px;
+  height: 24px;
+  margin-right: 9px;
+}

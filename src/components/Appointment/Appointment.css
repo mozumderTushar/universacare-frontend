@@ -1,0 +1,35 @@
+.appointment{
+  background: linear-gradient(44.42deg, #FFF1E1 28.4%, #FFFFFF 52.55%);
+}
+
+.appointment__box{
+  margin-left: 71px;
+}
+
+.appointment__head{
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+}
+
+.appointment__info{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.appointment__btn{
+  padding: 23px 31px;
+}
+
+.appointment__btn__text{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.12em;
+}
+
+.appointment__img{
+  width: 788px;
+  height: 499px;
+}
