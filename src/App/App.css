@@ -11,6 +11,10 @@ html,body{
   background-color: #0047AB;
 }
 
+.common__text__color {
+  color: #2B2D42;
+}
+
 .logo{
   width: 24px;
   height: 24px;

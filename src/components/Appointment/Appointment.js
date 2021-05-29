@@ -9,8 +9,8 @@ const Appointment = () => {
     <div className="appointment">
       <Row className="d-flex align-items-center appointment__box">
         <Col md={6}>
-          <h1 className="appointment__head">The Future of Health <br /> Care is Home Care</h1>
-          <p className="appointment__info">Over a Decade of Trusted Care.</p>
+          <h1>The Future of Health <br /> Care is Home Care</h1>
+          <p>Over a Decade of Trusted Care.</p>
           <Button className="appointment__btn common__bg__color"><span className="appointment__btn__text">REQUEST AN APPOINTMENT</span></Button>
         </Col>
         <Col md={6}>

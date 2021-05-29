@@ -1,0 +1,17 @@
+.coverage{
+  padding: 11px 0px 12px 0px;
+  background: linear-gradient(208.56deg, #FFC03D -29.1%, #FFC107 64.78%);
+}
+
+.location__icon{
+  width: 37px;
+  height: 37px;
+}
+
+.coverage__text{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2B2D42;
+  margin-top: 10px;
+}

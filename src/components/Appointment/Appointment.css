@@ -6,13 +6,13 @@
   margin-left: 71px;
 }
 
-.appointment__head{
+.appointment h1{
   font-weight: bold;
   font-size: 48px;
   line-height: 59px;
 }
 
-.appointment__info{
+.appointment p{
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
@@ -44,13 +44,13 @@
     flex-direction: column-reverse;
   }
 
-  .appointment__head{
+  .appointment h1{
     font-size: 24px;
     line-height: 29px;
     margin-top: 24px;
   }
 
-  .appointment__info{
+  .appointment p{
     font-size: 16px;
     line-height: 20px;
   }
