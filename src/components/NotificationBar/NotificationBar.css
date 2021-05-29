@@ -9,6 +9,10 @@
 
 .phone{
   margin-right: 33px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0047AB;
 }
 
 .nav-link{
@@ -29,6 +33,14 @@
   color: #000;
 }
 
+li.nav-item {
+  border-right: 1.5px solid #D7D4E2;
+}
+
+li.nav-item:nth-last-child(1) {
+  border-right: none;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   .notification__bar{
     padding-top: 16px;
@@ -37,5 +49,7 @@
   .notification__bar__logo{
     margin-left: 16px;
   }
- 
+  li.nav-item {
+    border-right: none;
+  }
 }

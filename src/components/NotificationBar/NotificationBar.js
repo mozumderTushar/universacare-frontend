@@ -29,14 +29,14 @@ const NotificationBar = () => {
           <li className="nav-item">
             <NavLink to="/care" className="nav-link">HOME CARE HEROES</NavLink>
           </li>
-          <li className="nav-item">
+          <li className="nav-item contact">
             <NavLink to="/contact" className="nav-link">CONTACT</NavLink>
           </li>
         </Nav>
         <Nav>
           <div className="d-flex">
             <img className="img-fluid logo mt-2" src={phone} alt="" />
-            <Nav.Link className="phone" href="#">866-986-3356</Nav.Link>
+            <p className="phone mt-2" >866-986-3356</p>
           </div>
         </Nav>
       </Navbar.Collapse>

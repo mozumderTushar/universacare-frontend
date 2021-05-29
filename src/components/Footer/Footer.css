@@ -92,3 +92,61 @@
   color: #0047AB;
   margin: 15px;
 }
+
+.individual__icon{
+  margin-right: 15px;
+}
+
+hr{
+  background: #C4C4C4;
+  margin-top: 19px;
+}
+
+.copyright p{
+  font-size: 16px;
+  line-height: 172.4%;
+  color: #2B2D42;
+  text-align: center;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .contact__form{
+    margin-top: 48px;
+  }
+
+  .footer__submit__btn{
+    float: right;
+    margin-bottom: 32px;
+  }
+
+  .footer_icon{
+    margin-bottom: 16px;
+    margin-top: 84px;
+  }
+
+  .footer__icon__group{
+    text-align: center;
+    margin: 0px 86px 0px 84px;
+  }
+
+  .follow__us{
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 172.4%;
+    margin: 0px 16px;
+  }
+
+  .individual__icon{
+    margin-right: 16px;
+  }
+
+  hr{
+    margin-top: 48px;
+  }
+
+  .copyright p{
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
