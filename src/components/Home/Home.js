@@ -7,6 +7,7 @@ import Footer from '../Footer/Footer.js';
 import Header from '../Header/Header.js';
 import NotificationBar from '../NotificationBar/NotificationBar.js';
 import RequestAppointment from '../RequestAppointment/RequestAppointment.js';
+import Reviews from '../Reviews/Reviews.js';
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Coverage />
       <BestCareviger />
       <ChapAccreditation />
+      <Reviews />
       <RequestAppointment />
       <Footer />
     </div>

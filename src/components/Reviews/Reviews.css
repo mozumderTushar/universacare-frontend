@@ -1,0 +1,70 @@
+.reviews{
+  padding-top: 92px;
+  background: linear-gradient(95.15deg, #FFF1E1 0%, #FFFBF7 87.89%, #FFFFFF 99.36%);
+}
+
+.reviews h1{
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 51px;
+  color: #2B2D42;
+  margin-bottom: 10px;
+}
+
+.review__card{
+  width: 327px;
+  height: 210px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px #EBEBEB;
+  border-radius: 2px;
+}
+
+.reviews__verified{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.005em;
+  color: #2B2D42;
+  margin-top: 30px;
+}
+
+.review__icon{
+  color: #FFC107;
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+.reviews h6{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.005em;
+  color: #2B2D42;
+}
+
+.review__user {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.005em;
+  color: #2B2D42;
+  margin-top: 19px;
+}
+
+.review__icon__user{
+  color: #FFC107;
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.see__more__review{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.12em;
+  color: #0047AB;
+  margin-top: 35px;
+  margin-bottom: 91px;
+}
