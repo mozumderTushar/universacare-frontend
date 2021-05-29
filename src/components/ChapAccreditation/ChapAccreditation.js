@@ -8,8 +8,10 @@ const ChapAccreditation = () => {
     <Container>
       <div className="chap__accreditation">
         <Row>
-          <Col md={4}  md={{  offset: 1 }}>
-            <img src={chap} alt="" />
+          <Col md={4} md={{ offset: 1 }}>
+            <div className="chap__accreditation__mbl">
+              <img src={chap} alt="" />
+            </div>
           </Col>
           <Col md={8}>
             <div className="common__text__color mt-3 chap__accreditation__text">

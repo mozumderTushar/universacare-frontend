@@ -2,10 +2,6 @@
   margin: 94px 0px 93px 0px
 }
 
-.chap__accreditation img{
-  margin-right: 53px;
-}
-
 .chap__accreditation h3{
   font-weight: bold;
   font-size: 30px;
@@ -21,4 +17,10 @@
 
 .chap__accreditation__text{
   text-align: start;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .chap__accreditation__mbl{
+    text-align: center
+  }
 }

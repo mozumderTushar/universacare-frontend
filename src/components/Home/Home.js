@@ -5,6 +5,7 @@ import ChapAccreditation from '../ChapAccreditation/ChapAccreditation.js';
 import Coverage from '../Coverage/Coverage.js';
 import Header from '../Header/Header.js';
 import NotificationBar from '../NotificationBar/NotificationBar.js';
+import RequestAppointment from '../RequestAppointment/RequestAppointment.js';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Coverage />
       <BestCareviger />
       <ChapAccreditation />
+      <RequestAppointment />
     </div>
   );
 };

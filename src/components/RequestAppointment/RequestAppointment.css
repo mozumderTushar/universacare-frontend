@@ -1,0 +1,52 @@
+.request__appointment{
+  background: #395FA9;
+}
+
+.request__appointment h1{
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  color: #FFFFFF;
+  padding: 59px 0px 27px 164px;
+}
+
+.request_appointment__btn{
+  width: 342px;
+  height: 66px;
+  background: #fff;
+  margin: 0px 0px 60px 164px;
+}
+
+.request_appointment__btn__text{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.12em;
+  color: #0047AB;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .request__appointment h1{
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    padding: 72px 16px 36px 16px;
+  }
+
+  
+  .request_appointment__btn{
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0px 16px 28px 8px;
+  }
+
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 2024px) {
+  .request_appointment__img{
+    position: absolute;
+    bottom: 0;
+  }
+}
