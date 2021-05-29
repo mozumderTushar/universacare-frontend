@@ -18,6 +18,24 @@
   color: #2B2D42;
 }
 
-a.nav-link.active{
+.navbar-light .navbar-nav .active>
+.nav-link, .navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show>.nav-link {
   color: #0047AB;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .notification__bar{
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .notification__bar__logo{
+    margin-left: 16px;
+  }
+ 
 }

@@ -12,3 +12,13 @@
   height: 24px;
   margin-right: 9px;
 }
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .precautions{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    padding-top: 13px;
+    padding-bottom: 11px;
+  }
+}

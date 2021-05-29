@@ -7,9 +7,9 @@ import './NotificationBar.css';
 
 const NotificationBar = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="white" variant="white" className="notification__bar mt-1">
+    <Navbar collapseOnSelect expand="lg" bg="white" variant="light" className="notification__bar mt-1">
       <Navbar.Brand href="/">
-        <img className="notification__bar__logo"  src={logo} alt="" />
+        <img className="notification__bar__logo" src={logo} alt="" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
@@ -34,8 +34,10 @@ const NotificationBar = () => {
           </li>
         </Nav>
         <Nav>
-          <img className="img-fluid logo mt-2" src={phone} alt="" />
-          <Nav.Link className="phone" href="#">866-986-3356</Nav.Link>
+          <div className="d-flex">
+            <img className="img-fluid logo mt-2" src={phone} alt="" />
+            <Nav.Link className="phone" href="#">866-986-3356</Nav.Link>
+          </div>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
