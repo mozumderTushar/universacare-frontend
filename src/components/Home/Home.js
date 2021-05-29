@@ -3,6 +3,7 @@ import Appointment from '../Appointment/Appointment.js';
 import BestCareviger from '../BestCareviger/BestCareviger.js';
 import ChapAccreditation from '../ChapAccreditation/ChapAccreditation.js';
 import Coverage from '../Coverage/Coverage.js';
+import Footer from '../Footer/Footer.js';
 import Header from '../Header/Header.js';
 import NotificationBar from '../NotificationBar/NotificationBar.js';
 import RequestAppointment from '../RequestAppointment/RequestAppointment.js';
@@ -17,6 +18,7 @@ const Home = () => {
       <BestCareviger />
       <ChapAccreditation />
       <RequestAppointment />
+      <Footer />
     </div>
   );
 };
