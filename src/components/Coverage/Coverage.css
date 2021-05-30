@@ -15,3 +15,144 @@
   color: #2B2D42;
   margin-top: 10px;
 }
+
+.coverage__area{
+  margin: 97px 0px 94px 0px;
+}
+
+.coverages__main{
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: #2B2D42;
+}
+
+.coverages__main__span{
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  color: #2B2D42;
+}
+
+.coverages__main__p{
+  margin-top: 63px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: -0.007em;
+  color: #2B2D42;
+}
+
+.coverages__main::after {
+  display: inline-block;
+  content: "";
+  border-top: 3px solid #FF8400;
+  width: 161px;
+  position: absolute;
+  top: 28%;
+  left: 3%;
+}
+
+.single__coverage__img{
+  width: 151.08px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+
+.single__coverage__head{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.005em;
+}
+
+.single__coverage__text{
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.005em;
+  color: #2B2D42;
+}
+
+.single__coverage__icon{
+  width: 42px;
+  height: 42px;
+  float: right;
+}
+
+.coverage__item{
+  border-right: 1px solid #C4C4C4;
+  margin-top: 20px;
+}
+
+.coverage__support img{
+  width: 93px;
+  height: 93px;
+  margin-top: 30px;
+}
+
+.coverage__support h3{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.005em;
+  color: #2B2D42;
+}
+
+.coverage__support p{
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: -0.005em;
+  color: #2B2D42;
+}
+
+.coverage__support__contact{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.12em;
+  color: #FFFFFF;
+}
+
+.coverage__support__btn{
+  width: 188px;
+  height: 66px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .coverage__area{
+    display: none;
+  }
+  .coverages__main{
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 48px;
+  }
+  .coverages__main__span{
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .coverages__main__p{
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.007em;
+    margin-top: 30px;
+  }
+  .coverages__main::after {
+    top: 41%;
+    left: 4%;
+  }
+  .slider__coverage__item{
+    text-align: center;
+  }
+  .single__coverage__icon{
+    margin-right: 40%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 2024px) {
+  .slider__mbl{
+    display: none;
+  }
+}
