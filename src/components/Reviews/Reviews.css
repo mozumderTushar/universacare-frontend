@@ -68,3 +68,20 @@
   margin-top: 35px;
   margin-bottom: 91px;
 }
+
+.slider__mbl{
+  padding-top: 92px;
+  background: linear-gradient(95.15deg, #FFF1E1 0%, #FFFBF7 87.89%, #FFFFFF 99.36%);
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .reviews{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 2024px) {
+  .slider__mbl{
+    display: none;
+  }
+}
