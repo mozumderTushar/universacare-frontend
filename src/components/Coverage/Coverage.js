@@ -68,7 +68,7 @@ const Coverage = () => {
     resetProgress: false,
     arrows: 'slider',
   };
-  
+
   return (
     <div>
       <div className="d-flex justify-content-center coverage">
@@ -109,14 +109,12 @@ const Coverage = () => {
         <Splide options={primaryOptions}>
           {/**--------------------------------- -------- Slider --------------------------------*/
             coverage__data.map(coverage => (
-              <SplideSlide>
-                <Col md={3} key={coverage.id} className="slider__coverage__item">
-                  <Col md={2} key={coverage.id} className="coverage__item">
-                    <img className="img-fluid single__coverage__img" src={coverage.img} alt="" />
-                    <h3 className="single__coverage__head">{coverage.header}</h3>
-                    <p className="single__coverage__text">{coverage.text}</p>
-                    <img className="img-fluid single__coverage__icon" src={arrow} alt="" />
-                  </Col>
+              <SplideSlide key={coverage.id} >
+                <Col md={3} className="slider__coverage__item coverage__item">
+                  <img className="img-fluid single__coverage__img" src={coverage.img} alt="" />
+                  <h3 className="single__coverage__head">{coverage.header}</h3>
+                  <p className="single__coverage__text">{coverage.text}</p>
+                  <img className="img-fluid single__coverage__icon" src={arrow} alt="" />
                 </Col>
               </SplideSlide>
             ))
