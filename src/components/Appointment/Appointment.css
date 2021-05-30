@@ -56,14 +56,13 @@
   }
 
   .appointment__btn{
-    padding: 18px 41px 18px 42px;
-    margin: 16px;
+    margin-bottom: 24px;
   }
 
   .appointment__btn__text{
+    font-weight: bold;
     font-size: 14px;
     line-height: 17px;
-    letter-spacing: 0.12em;
   }
 
   .appointment__img__desktop{

@@ -2,6 +2,7 @@ import React from 'react';
 import { Col, Container, Form, Row, Button } from 'react-bootstrap';
 import chap from '../assets/Icons/chap.png';
 import mwbe from '../assets/Icons/MWBE.png';
+import logo from '../assets/Icons/un_logo.png'
 import './Footer.css'
 
 const Footer = () => {
@@ -12,6 +13,7 @@ const Footer = () => {
           <Col md={4}>
             <p className="footer__headquaters">HEADQUARTERS</p>
             <p className="footer__headquaters__text">246-50 57th Drive <br /> Douglaston, NY 11362  <br />  hello@universacare.com  <br />  P: (718) 224-3758  <br />  F: 8777999065</p>
+            <img className="img-fluid footer__logo" src={logo} alt="" />
           </Col>
           <Col md={2} xs={6}>
             <p className="footer__header">SERVICES</p>
@@ -59,9 +61,9 @@ const Footer = () => {
         </Row>
       </Container>
       <hr/>
-      <div className="copyright ">
+      <Container className="copyright">
         <p>Copyright 2020 <span>Universacare</span> - All rights reserved</p>
-      </div>
+      </Container>
     </div>
   );
 };

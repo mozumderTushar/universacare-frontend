@@ -99,14 +99,25 @@
 
 hr{
   background: #C4C4C4;
-  margin-top: 19px;
+  margin-top: 10px;
 }
 
 .copyright p{
   font-size: 16px;
   line-height: 172.4%;
   color: #2B2D42;
-  text-align: center;
+}
+
+.copyright span{
+  font-size: 16px;
+  line-height: 172.4%;
+  color: #FF8B08;
+}
+
+.footer__logo{
+  width: 193px;
+  height: 38.44px;
+  margin-top: 19px;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 768px) {
@@ -141,11 +152,21 @@ hr{
     margin-right: 16px;
   }
 
+  .footer__logo{
+    display: none;
+  }
+
   hr{
     margin-top: 48px;
   }
 
   .copyright p{
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+  }
+
+  .copyright span{
     font-size: 13px;
     line-height: 16px;
   }

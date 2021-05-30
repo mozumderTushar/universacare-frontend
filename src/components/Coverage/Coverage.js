@@ -68,6 +68,7 @@ const Coverage = () => {
     resetProgress: false,
     arrows: 'slider',
   };
+  
   return (
     <div>
       <div className="d-flex justify-content-center coverage">

@@ -5,6 +5,7 @@ import consultation from '../assets/Icons/Consultation.png'
 import plan from '../assets/Icons/Plan.png'
 import matching from '../assets/Icons/Matching.png'
 import supervision from '../assets/Icons/Supervision.png'
+import tryImg from '../assets/Icons/Vector1.png'
 
 const careviger_data = [
   {

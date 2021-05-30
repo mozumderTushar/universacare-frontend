@@ -17,6 +17,10 @@
   margin: 0px 0px 60px 164px;
 }
 
+.request_appointment__btn:hover{
+  background: #fff;
+}
+
 .request_appointment__btn__text{
   font-weight: bold;
   font-size: 16px;
@@ -41,7 +45,9 @@
     margin: 0px 16px 28px 8px;
   }
 
-
+  .request_appointment__btn:hover{
+    background: #fff;
+  }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 2024px) {
